@@ -1,13 +1,24 @@
-.count{
+.count {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 1rem;
 }
 
-.icon{
-    height: 2rem;
-    width: 2rem;
-    background-color:#132440 ;
-    border: 1px solid #132440;
+/* ღილაკის გასუფთავება */
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0;
 }
+
+/* აიქონის გასწორება */
+.icon {
+    font-size: 2rem; /* Ionicons-ისთვის ზომა ასე უფრო კარგად მუშაობს */
+    color: #fff; /* აქ ჩაწერე ის ფერი, რაც გინდა რომ ისარი იყოს */
+    transition: transform 0.2s;
+}
+

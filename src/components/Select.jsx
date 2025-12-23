@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import React from 'react';
 import Styles from './Select.module.css';
 import Courent from './Courent';
@@ -19,7 +18,7 @@ export default function Select() {
   );
 }
 
-/* ---------- Ship ---------- */
+/* Ship */
 function Ship({ label, count, name }) {
   return (
     <div className={Styles.ship}>
