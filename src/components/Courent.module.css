@@ -22,3 +22,8 @@
     transition: transform 0.2s;
 }
 
+.text{
+    color: #fff;
+    font-size: 1.6rem;
+
+}

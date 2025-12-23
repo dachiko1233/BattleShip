@@ -33,7 +33,7 @@ function Ship({ label, count, name }) {
         ))}
       </div>
       <span className={Styles.shipName}>{name}</span>
-      <Courent />
+      <Courent maxLimit={3} />
     </div>
   );
 }
