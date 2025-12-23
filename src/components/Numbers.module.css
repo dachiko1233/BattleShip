@@ -1,0 +1,36 @@
+.number{
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+
+.box{
+    height: 3.4rem;
+    width: 5rem;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    border: 2px solid rgb(0, 89, 130);
+    background-color: rgb(21, 115, 158);
+    color: #fff;
+    margin: 0.5rem;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+
+.active{
+    width: 10rem;
+    background-color: red;
+    border: none;
+}
+/* .number  {
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+} */

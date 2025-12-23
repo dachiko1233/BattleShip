@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* ---------- GRID ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 🔴 5 ფანჯარა */
+  gap: 1.5rem;
+}
+
+/* ---------- SHIP CARD ---------- */
+.ship {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* CA x5 */
+.shipGrid {
+  display: grid;
+  grid-auto-flow: column; /* ჰორიზონტალურად */
+  gap: 0.25rem;
+}
+
+/* CELL */
+.cell {
+    font-size: 1.2rem;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid rgb(0, 89, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* NAMES */
+.shipName {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-top: 1rem;
+  font-family: 600;
+
+
+}
+
+/* ---------- COLORS ---------- */
+.ca {
+  background-color: #9863ca;
+  
+}
+
+.b {
+  background-color: #ca638d;
+  
+}
+
+.c {
+  background-color: #63caaa;
+  
+}
+
+.s {
+  background-color: #297d98;
+}
+
+.d {
+  background-color: #c8ca63;
+}

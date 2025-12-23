@@ -1,0 +1,13 @@
+.count{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+    background-color:#132440 ;
+    border: 1px solid #132440;
+}
