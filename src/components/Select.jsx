@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './Select.module.css';
 import Courent from './Courent';
+import Button from './Button';
 
 export default function Select() {
   return (
@@ -14,6 +15,7 @@ export default function Select() {
         <Ship label="S" count={3} name="Submarine" />
         <Ship label="D" count={2} name="Destroyer" />
       </div>
+      <Button />
     </section>
   );
 }

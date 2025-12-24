@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(11, 40px);
+    grid-template-rows: repeat(11, 40px);
+    gap: 1px;
+    background-color: #444;
+    padding: 10px;
+    user-select: none;
+}
+
+.cell{
+    background-color: #2e9d8f;
+    border: 1px solid #ffffff33;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cell:hover{
+    background-color: #264653;
+}
+
+.labelcell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: #333;
+}

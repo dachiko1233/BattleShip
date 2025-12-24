@@ -1,0 +1,22 @@
+.btn{
+    display: inline-block;
+    font-size: 1.2rem;
+    
+    width: 20rem;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #9863ca;
+    color: #fff;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    transition:  all .4s;
+}
+
+
+.btn:hover{
+    background-color: #fff;
+    color: #9863ca;
+}
